@@ -20,7 +20,7 @@ func startServer(port string, waitGroup *sync.WaitGroup, errCh chan<- error) {
 	}
 }
 
-func startServerFarm(ports []string) {
+func StartServerFarm(ports []string) {
 	var waitGroup sync.WaitGroup
 	waitGroup.Add(len(ports))
 
