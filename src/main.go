@@ -1,12 +1,10 @@
 package main
 
 import (
-	"fmt"
+	"github.com/rohitamar/load-balancing/serverFarm"
 )
 
 func main() {
-	fmt.Println("Hello World")
 	ports := [3]string{"8080", "8081", "8082"}
-
 	serverFarm.startServerFarm(ports)
 }
