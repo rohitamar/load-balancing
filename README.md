@@ -1,4 +1,4 @@
-# Load Balancer in Go
+# Load Balancer
 
 ## Goals
 
